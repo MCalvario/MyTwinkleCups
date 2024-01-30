@@ -1,0 +1,88 @@
+body {
+    background-color:rgb(7, 7, 7);
+}
+
+a {
+    color: rgb(87, 5, 100);
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    text-decoration: none;
+}
+
+/*This is my header with link effects and colors*/
+a:hover { color: hotpink; }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(22, 20, 22);
+    font-size: 25px;
+}
+
+/*hero banner effects*/
+.hero {
+    height: 850px;
+    width: 100%;
+    font-style: italic;
+    border: solid hotpink;
+    color: hotpink;
+}
+    
+/*hero title positionion and font effects*/
+#HeroTitle { 
+    position: center;
+    text-align: center;
+    text-shadow: 35px 100px 12px;
+    font-size: 200px;
+    letter-spacing: 6px;
+    padding: 40px 40px;
+    line-height: 1.5;
+}
+
+.cup1 {
+    width: 360px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+    }
+    
+.cup2 {
+    width: 360px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+    }
+
+.cup3 {
+    width: 360px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+    }
+
+/*This is the coding I used to achieve the look I wanted for my footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(87, 5, 100);
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(22, 20, 22);
+}
+
+  img:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 0, 106);
+  }
+
+#Prices {
+    color: hotpink;
+    background-color: rgb(7, 7, 7);;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: space-between;
+    padding: .5px;
+}
+  
